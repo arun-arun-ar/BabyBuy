@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/registration_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="120dp"
+                android:fontFamily="@font/blueberry"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:textSize="45dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/hey_comic"
+                android:paddingTop="10dp"
+                android:paddingBottom="30dp"
+                android:layout_marginStart="19dp"
+                android:text="Welcome to BabyBuy"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/email_input"
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/edit_text_style"
+                android:textColor="@color/black"
+                android:fontFamily="@font/hey_comic"
+                android:hint="Please enter your Email."
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/password_input"
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_text_style"
+                android:fontFamily="@font/hey_comic"
+                android:hint="Please enter your Password."
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:textColorHint="@color/black"
+                />
+
+
+
+            <ProgressBar
+                android:id="@+id/progres_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:indeterminateTint="#000000"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sign_in_btn"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button"
+                android:text="Login"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/forgotPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/blueberry"
+                android:paddingTop="15dp"
+                android:paddingRight="35dp"
+                android:text="Forget Password ?"
+                android:textColor="#210F0F"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sign_up_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/blueberry"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp"
+                android:text="Don’t have an account ? Sign up"
+                android:textColor="#210F0F"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

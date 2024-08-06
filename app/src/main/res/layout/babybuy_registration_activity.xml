@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/registration_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/blueberry"
+            android:text="Register"
+            android:textColor="@color/black"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Welcome to BabyBuy"
+            android:fontFamily="@font/blueberry"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="5dp"
+            android:text="Registration to babybuy wont take much time"
+            android:textColor="@color/black"
+            android:fontFamily="@font/sugar_snow"
+            android:textSize="18dp"
+             />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/username_input"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Please enter a Username."
+            android:fontFamily="@font/hey_comic"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            android:textColorHint="#250808"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/email_input"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Please enter your Email."
+            android:fontFamily="@font/hey_comic"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:textColorHint="#250808"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/password_input"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Please enter your Password"
+            android:fontFamily="@font/hey_comic"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColorHint="#250808"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/confirm_password_input"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Please re-enter your Password."
+            android:fontFamily="@font/hey_comic"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColorHint="#250808"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/register_btn"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:text="Register"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_marginTop="40dp"
+            />
+
+
+        <TextView
+            android:id="@+id/sign_in_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/blueberry"
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp"
+            android:text="Already have an account ? Login"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>

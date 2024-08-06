@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "830131529240",
+    "firebase_url": "https://babybuy-31ee3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "babybuy-31ee3",
+    "storage_bucket": "babybuy-31ee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830131529240:android:1ddb65de41ccf2b9a0456d",
+        "android_client_info": {
+          "package_name": "com.application.babybuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830131529240-iqb8j710qc6daltvbba8q4ilveoflod2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPzzmM5I0wssF-RF3zx57c9gzzmHuTrMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830131529240-iqb8j710qc6daltvbba8q4ilveoflod2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
